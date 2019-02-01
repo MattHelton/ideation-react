@@ -1,8 +1,31 @@
-#btn {
-  height: 100px;
-  width: 200px;
-  background-color: red;
-  font: white;
-  font-weight: bold;
-  font-size: 30px
+body{
+  background-color: #93B7BE
 }
+
+#idea{
+  color: #454545;
+  background-color: #F1FFFA;
+  margin: 4em;
+  font-size: 32px;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #454545;
+}
+
+#btn{
+  background-color: #F1FFFA;
+  border: 1px solid #8E94F2;
+  color: #B02E0C;
+  padding: 32px 66px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 32px;
+  font-weight: 700
+}
+
+
+.App {
+  text-align: center;
+}
+

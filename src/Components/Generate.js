@@ -25,11 +25,11 @@ class Generate extends React.Component {
         return (
             <div>
                 <button id='btn' onClick={this.chooseIdea}>Generate</button>
-                <p>{this.state.chosenIdea}</p>
-        </div>)
-            }
-        
-        }
-        
-        
+                <p id='idea'>{this.state.chosenIdea}</p>
+            </div>)
+    }
+
+}
+
+
 export default Generate
