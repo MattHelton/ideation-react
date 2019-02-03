@@ -19,14 +19,15 @@ class Generate extends React.Component {
         const chosenIdea = this.state.choices[this.randomizer()]
         this.setState({ chosenIdea })
 
-
+        
     }
     render() {
-        return (
-            <div>
-                <button id='btn' onClick={this.chooseIdea}>Generate</button>
-                <p id='idea'>{this.state.chosenIdea}</p>
-            </div>)
+            return (
+                <div>
+                    <button id='btn' onClick={this.chooseIdea}>Generate</button>
+                    <p id='idea'>{this.state.chosenIdea}</p>
+                </div>
+            )
     }
 
 }
