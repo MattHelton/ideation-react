@@ -1,5 +1,6 @@
 import React from 'react'
 import '../App.css';
+import { Button } from 'react-bootstrap';
 // import ReactDOM from 'react-dom'
 
 class Generate extends React.Component {
@@ -24,7 +25,7 @@ class Generate extends React.Component {
     render() {
             return (
                 <div>
-                    <button id='btn' onClick={this.chooseIdea}>Generate</button>
+                    <Button type='button' className='btn-lrg' id='gen-btn' onClick={this.chooseIdea}>Generate</Button>
                     <p id='idea'>{this.state.chosenIdea}</p>
                 </div>
             )

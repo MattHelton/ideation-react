@@ -1,31 +1,25 @@
 body{
-  background-color: #93B7BE
+  background-color: #fff
 }
 
 #idea{
-  color: #454545;
-  background-color: #F1FFFA;
+  color: #fff;
+  background-color: #eb1662;
   margin: 4em;
   font-size: 32px;
   border: 1px solid;
   padding: 10px;
-  box-shadow: 5px 10px #454545;
+  box-shadow: 5px 10px #36b2b4;
 }
-
-#btn{
-  background-color: #F1FFFA;
-  border: 1px solid #8E94F2;
-  color: #B02E0C;
-  padding: 32px 66px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 32px;
-  font-weight: 700
-}
-
 
 .App {
   text-align: center;
 }
-
+#gen-btn{
+  background: #eb1662;
+  color: #fff;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+ }
