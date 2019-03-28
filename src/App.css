@@ -24,6 +24,6 @@ body{
   border-bottom-left-radius: 15px;
  }
 
- #hidden{
+ .hidden{
    display: none;
  }
