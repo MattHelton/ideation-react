@@ -5,7 +5,7 @@ body{
 #idea{
   color: #fff;
   background-color: #eb1662;
-  margin: 4em;
+  margin: 1em;
   font-size: 32px;
   border: 1px solid;
   padding: 10px;
@@ -18,10 +18,9 @@ body{
 #gen-btn{
   background: #eb1662;
   color: #fff;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  border-bottom-left-radius: 15px;
+  margin: 2em;
+  font-size: 2em
+
  }
 
  .hidden{
